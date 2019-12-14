@@ -4,8 +4,9 @@ env:
   node: true
   mocha: true
 parserOptions:
-  ecmaVersion: 8
+  ecmaVersion: 2018
   sourceType: module
+
 globals:
   # These globals are for specs. ESLint doesn't have a way to just whitelist
   # for .spec.js only.
