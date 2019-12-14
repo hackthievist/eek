@@ -1,10 +1,10 @@
 const ItemService = require('../services/ItemService');
 
 const getItems = (req, res) => {
-  const { filterBy, filterValue } = req.params;
+  const { name, category } = req.query;
   let ecoFriendlyItems = ItemService.mapItems();
-  if (filterBy && filterValue) {
-    ecoFriendlyItems = ItemService.filterItems(ecoFriendlyItems, filterBy, filterValue);
+  if (name || category) {
+    ecoFriendlyItems = ItemService.filterItems(ecoFriendlyItems, name, category);
   }
   return res.status(200).send(ecoFriendlyItems);
 };

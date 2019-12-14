@@ -16,8 +16,17 @@ const mapItems = () => {
   return result;
 };
 
-const filterItems = (items, condition, value) => {
-  const filteredItems = items.filter(item => item[condition] === value);
+const filterItems = (items, name, category) => {
+  let filteredItems;
+  if (name) {
+    filteredItems = items.filter(item => item['name'].includes(name));
+    console.log(filteredItems);
+  }
+  if (category) {
+    filteredItems = filteredItems.filter((item) => {
+      return item.category === category;
+    })
+  }
   return filteredItems;
 };
 

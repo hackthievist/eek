@@ -19,6 +19,46 @@
                 "BPC-002"
             ],
             "category": "lifestyle"
+        },
+        "light-bulbs": {
+            "id": 3,
+            "name": "Light Bulbs",
+            "code": "LBS-001",
+            "alternatives": [
+                "ESB-001",
+                "ESB-002"
+            ],
+            "category": "home-appliance"
+        },
+        "trash-bags": {
+            "id": 4,
+            "name": "Non-degradable Trash Bags",
+            "code": "TBS-001",
+            "alternatives": [
+                "BTB-001",
+                "BTB-002"
+            ],
+            "category": "waste-management"
+        },
+        "plastic-toothbrushes": {
+            "id": 5,
+            "name": "Plastic Toothbrushes",
+            "code": "PLT-001",
+            "alternatives": [
+                "BMT-001",
+                "BMT-002"
+            ],
+            "category": "selfcare"
+        },
+        "straws": {
+            "id": 6,
+            "name": "Plastic Straws",
+            "code": "PLS-001",
+            "alternatives": [
+                "BMS-001",
+                "BMS-002"
+            ],
+            "category": "food-and-drink"
         }
     },
 
@@ -28,16 +68,32 @@
             "name": "Disposable Wooden Cutlery",
             "code": "DWC-001",
             "description": "Some very fine cutlery",
-            "where-to-buy": "",
-            "image": ""
+            "where-to-buy": "https://www.amazon.com/BAMBOODLERS-All-Natural-Eco-Friendly-Biodegradable-Compostable/dp/B06XDY3RXL",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81bH1SuFUlL._SL1463_.jpg"
         },
         "energizer-rechargeable-batteries": {
             "id": 2,
             "name": "Energizer Rechargeable Batteries",
             "code": "RCH-002",
             "description": "Energizer Rechargeable Batteries",
-            "where-to-buy": "",
-            "image": ""
+            "where-to-buy": "https://www.energizer.com/batteries/energizer-rechargeable-batteries",
+            "image": "https://www.energizer.com/images/default-source/products/recharge_seal.jpg"
+        },
+        "bamboo-straws": {
+            "id": 3,
+            "name": "Bamboo Straws",
+            "code": "BMS-001",
+            "description": "Biodegradable bamboo straws",
+            "where-to-buy": "https://eartheasy.com/bamboo-straws-6-pack/",
+            "image": "https://cdn11.bigcommerce.com/s-j602wc6a/images/stencil/2048x2048/products/6546/25800/Bamboo_Straws_6-pack_056570__32104.1550010894.jpg?c=2"
+        },
+        "bamboo-phone-cases": {
+            "id": 4,
+            "name": "Bamboo Phone Cases",
+            "code": "BPC-001",
+            "description": "Phone case made of bamboo",
+            "where-to-buy": "https://www.amazon.com/iPhone-Real-Bamboo-Wood-Snap/dp/B074DGB69J/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/61zI25FkVBL._SL1080_.jpg"
         }
     }
 }
