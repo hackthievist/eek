@@ -17,10 +17,9 @@ const mapItems = () => {
 };
 
 const filterItems = (items, name, category) => {
-  let filteredItems;
+  let filteredItems = items;
   if (name) {
     filteredItems = items.filter(item => item['name'].includes(name));
-    console.log(filteredItems);
   }
   if (category) {
     filteredItems = filteredItems.filter((item) => {
