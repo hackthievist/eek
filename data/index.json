@@ -8,7 +8,8 @@
                 "DWC-001",
                 "DWC-002"
             ],
-            "category": "food-and-drink"
+            "category": "food-and-drink",
+            "image": "https://cdn11.bigcommerce.com/s-cece8/images/stencil/original/products/27719/30059/rose-gold-plastic-cutlery-set__83725.1534951046.jpg?c=2&imbypass=on"
         },
         "plastic-phone-cases": {
             "id": 2,
@@ -18,7 +19,8 @@
                 "BPC-001",
                 "BPC-002"
             ],
-            "category": "lifestyle"
+            "category": "lifestyle",
+            "image": "https://media.boingboing.net/wp-content/uploads/2018/03/iphone-6-case-jetech-apple-iphone-6-6s-case-shock-absorption-bumper-and-anti-scratch-clear-back-for-iphone-6s-iphone-6-4-7-inch-hd-clear-0661-4-800x800.jpg"
         },
         "light-bulbs": {
             "id": 3,
