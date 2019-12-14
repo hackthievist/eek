@@ -1,11 +1,11 @@
 # node modules
-application/node_modules
+node_modules
 
 # env files 
-application/.env
+.env
 
 # log files
-application/yarn-error.log
+yarn-error.log
 
-docker/secrets.env
-docker/config.env
+secrets.env
+config.env
