@@ -20,7 +20,7 @@
                 "BPC-002"
             ],
             "category": "lifestyle",
-            "image": "https://media.boingboing.net/wp-content/uploads/2018/03/iphone-6-case-jetech-apple-iphone-6-6s-case-shock-absorption-bumper-and-anti-scratch-clear-back-for-iphone-6s-iphone-6-4-7-inch-hd-clear-0661-4-800x800.jpg"
+            "image": "https://images.unsplash.com/photo-1565536421961-1f165e0c981e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80"
         },
         "light-bulbs": {
             "id": 3,
@@ -30,7 +30,8 @@
                 "ESB-001",
                 "ESB-002"
             ],
-            "category": "home-appliance"
+            "category": "home-appliance",
+            "image": "https://images.unsplash.com/photo-1441171205449-f600f908a9f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3889&q=80"
         },
         "trash-bags": {
             "id": 4,
@@ -40,7 +41,8 @@
                 "BTB-001",
                 "BTB-002"
             ],
-            "category": "waste-management"
+            "category": "waste-management",
+            "image": "https://images.unsplash.com/photo-1565886728041-a239b6a3ec42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2702&q=80"
         },
         "plastic-toothbrushes": {
             "id": 5,
@@ -50,7 +52,8 @@
                 "BMT-001",
                 "BMT-002"
             ],
-            "category": "selfcare"
+            "category": "selfcare",
+            "image": "https://images.unsplash.com/photo-1520013573795-38516d2661e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2907&q=80"
         },
         "straws": {
             "id": 6,
@@ -60,7 +63,8 @@
                 "BMS-001",
                 "BMS-002"
             ],
-            "category": "food-and-drink"
+            "category": "food-and-drink",
+            "image": "https://images.unsplash.com/photo-1563171522-757f89d8cbe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2424&q=80"
         }
     },
 
@@ -96,6 +100,22 @@
             "description": "Phone case made of bamboo",
             "where-to-buy": "https://www.amazon.com/iPhone-Real-Bamboo-Wood-Snap/dp/B074DGB69J/",
             "image": "https://images-na.ssl-images-amazon.com/images/I/61zI25FkVBL._SL1080_.jpg"
+        },
+        "bamboo-tootbrushes": {
+            "id": 5,
+            "name": "Bamboo Toothbrushes",
+            "code": "BMT-001",
+            "description": "Bamboo Toothbrushes",
+            "where-to-buy": "https://www.amazon.com/Bamboo-Toothbrush-Adult-Size-Pack/dp/B009O3BCT2",
+            "image": "https://images.unsplash.com/photo-1553691158-91a7f9183156?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"
+        },
+        "compostable-trash-bags": {
+            "id": "6",
+            "name": "Compostable Trash Bags",
+            "code": "BTB-001",
+            "description": "Trash Bags that are biodegradable",
+            "where-to-buy": "https://www.amazon.com/UNNI-Compostable-Kitchen-Certified-Francisco/dp/B013XGQXVW",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81WsCbCYKkL._SL1500_.jpg"
         }
     }
 }
