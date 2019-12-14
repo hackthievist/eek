@@ -1,0 +1,43 @@
+{
+    "non-eco-friendly-items": {
+        "disposable-plastic-cutlery": {
+            "id": 1,
+            "name": "Disposable Plastic Cutlery",
+            "code": "DPC-001",
+            "alternatives": [
+                "DWC-001",
+                "DWC-002"
+            ],
+            "category": "food-and-drink"
+        },
+        "plastic-phone-cases": {
+            "id": 2,
+            "name": "Plastic Phone Cases",
+            "code": "PPC-001",
+            "alternatives": [
+                "BPC-001",
+                "BPC-002"
+            ],
+            "category": "lifestyle"
+        }
+    },
+
+    "eco-friendly-items": {
+        "disposable-wooden-cutlery": {
+            "id": 1,
+            "name": "Disposable Wooden Cutlery",
+            "code": "DWC-001",
+            "description": "Some very fine cutlery",
+            "where-to-buy": "",
+            "image": ""
+        },
+        "energizer-rechargeable-batteries": {
+            "id": 2,
+            "name": "Energizer Rechargeable Batteries",
+            "code": "RCH-002",
+            "description": "Energizer Rechargeable Batteries",
+            "where-to-buy": "",
+            "image": ""
+        }
+    }
+}
